@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Active SG</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    hr {
+      border: 0;
+      height: 2px;
+      background-color: #ffffff; /* Red color for the line */
+      margin: 20px 0;
+      width: 80%; /* Adjust the width of the line */
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1, h2, h3 {
+      margin: 10px 0;
+    }
+    
+
+    .title-container {
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .title-container h1 {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- header -->
+  <header id="home">
+    <div class="content">
+      <div class="title-container">
+        <hr>
+        <h1>Welcome to Active SG</h1>
+        <hr>
+      </div>
+      <p>Stay active with your friends!</p>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#activities">Activities</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#buy-pass" class="buy-pass">Buy Gym Pass</a> 
+      </nav>
+    </div>
+  </header>
+
+  <!-- activities -->
+  <section id="activities" class="section">
+    <div class="content">
+      <h2>Activities</h2>
+      <p>Explore a variety of sports suited for you. Learn more about each sport below:</p>
+      <hr>
+      
+      <div class="activity">
+        <h3>Basketball</h3>
+        <p>Basketball is a fast-paced team sport where players aim to score by shooting a ball through a hoop. It's great for improving cardiovascular health and coordination.</p>
+      </div>
+
+      <div class="activity">
+        <h3>Badminton</h3>
+        <p>Badminton is a racquet sport played with a shuttlecock. It's an exciting, fast-paced game that helps build agility, endurance, and hand-eye coordination.</p>
+      </div>
+
+      <div class="activity">
+        <h3>Swimming</h3>
+        <p>Swimming is an excellent full-body workout that improves cardiovascular health, flexibility, and strength. It is a low-impact activity, perfect for all fitness levels.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- facilities -->
+  <section id="facilities" class="section">
+    <div class="content">
+      <h2>Facilities</h2>
+      <p>These are our locations!</p>
+      <ul class="facilities-list">
+        <li>Clementi Gym - ActiveSG Gym Singapore</li>
+        <li>Delta Gym - ActiveSG Gym Singapore</li>
+        <li>Jurong East Gym - ActiveSG Gym Singapore</li>
+        <li>Sengkang Gym - ActiveSG Gym Singapore</li>
+        <li>Toa Payoh West Community Centre Gym - ActiveSG Gym Singapore</li>
+        <li>Boon Lay Hockey Village Gym - ActiveSG Gym Singapore</li>
+        <li>Bukit Batok Gym - ActiveSG Gym Singapore</li>
+      </ul>
+      <hr>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="section">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Got any questions? Let us know!</p>
+      <hr>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- buy gym pass -->
+  <section id="buy-pass" class="section">
+    <div class="content">
+      <h2>Buy a Gym Pass</h2>
+      <p>Get started with a gym pass today!</p>
+      <hr>
+      <button>$1.50</button>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="content">
+      <p>©2024 Jayden Koh Kai Xuan.</p>
+    </div>
+  </footer>
+</body>
+</html>
