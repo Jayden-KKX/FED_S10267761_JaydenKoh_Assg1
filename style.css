@@ -84,13 +84,13 @@ margin: 20px 0;
   
 .logo-container {
   position: absolute;
-  top: 20px;  
-  left: 20px; 
+  top: -25px;  
+  left: 0%; 
   z-index: 1;
 }
 
   .logo {
-    width: 500px;  /* Adjust size as needed */
+    width: 200px; 
     height: auto;
   }
   
