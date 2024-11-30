@@ -92,11 +92,48 @@
       <div id="suggestion"></div>
     </div>
   </section>
-
-
     <script src = "main.js"></script>
 </body>
 </html>
 
+<!-- facilities section-->
+<section id="facilities" class="section">
+    <div class="content">
+      <h1>Facilities</h1>
+      <p>Select a time slot for booking:</p>
+  
+      <label for="start-time">Select Start Time:</label>
+      <select id="start-time" required>
+        <option value="">Select Start Time...</option>
+        <option value="08:00">08:00 AM</option>
+        <option value="08:30">08:30 AM</option>
+        <option value="09:00">09:00 AM</option>
+        <option value="09:30">09:30 AM</option>
+        <!-- Add more time slots as needed -->
+      </select>
+  
+      <label for="end-time">Select End Time:</label>
+      <select id="end-time" required>
+        <option value="">Select End Time...</option>
+        <!-- End times will be populated dynamically based on start time -->
+      </select>
+  
+      <p id="duration"></p>
+  
+      <label for="court">Choose a Court:</label>
+      <select id="court" required>
+        <option value="">Select Court...</option>
+        <option value="Court 1">Clementi court</option>
+        <option value="Court 2">Ngee Ann court</option>
+        <option value="Court 3">Suntec court</option>
 
+      </select>
+  
+      <button type="button" id="book-button">Book Court</button>
+      <hr>
+  
+      <h3>Your Bookings:</h3>
+      <ul id="booking-list"></ul>
+    </div>
+  </section>
 
