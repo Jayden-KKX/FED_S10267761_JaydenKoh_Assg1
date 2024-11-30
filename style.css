@@ -240,3 +240,39 @@ video {
     color: #C8102E;
     margin-top: 20px;
   }  
+
+  /* facilities */
+  /* Facilities Page Styles */
+ #facilities {
+  background: rgba(200, 16, 46, 0.9); 
+  color: #fff;
+}
+
+.facilities-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.facilities-list li {
+  margin-bottom: 15px;
+}
+
+/* Booking Form */
+#booking-form label {
+  display: block;
+  margin: 10px 0;
+}
+
+#booking-form select,
+#booking-form input,
+#booking-form button {
+  width: 100%;
+  max-width: 350px;
+}
+
+.booking-details {
+  font-size: 18px;
+  margin-top: 20px;
+}
