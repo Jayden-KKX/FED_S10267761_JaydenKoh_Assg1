@@ -1,0 +1,35 @@
+
+/* header */
+header, section, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+header {
+    background: rgba(200, 16, 46, 0.9); 
+    color: white; }
+/* page select */
+header h1, 
+header p, 
+header nav a {
+  color: white !important; /* all text within header overrides to white */
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19.2px;
+}
+header nav a:hover {
+  text-decoration: underline;
+  color: white; /* Ensure hover remains white */
+}
+header nav {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
