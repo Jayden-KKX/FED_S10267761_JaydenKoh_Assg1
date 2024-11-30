@@ -290,39 +290,107 @@ section h2 {
   }  
 
   /* facilities */
-  /* Facilities Page Styles */
- #facilities {
-  background: rgba(200, 16, 46, 0.9); 
+
+
+#facilities {
+  background: rgba(200, 16, 46, 0.9);  
+  font-family: Arial, sans-serif; 
+}
+
+#facilities h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff; /* Darker text color for readability */
+}
+#facilities p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff; 
+}
+#facilities label {
+  display: block; /* Ensure each label is on its own line */
+  margin: 10px 0 5px; /* Spacing between labels and inputs */
+  font-weight: bold;
+  color: white; /* Subtle color for labels */
+}
+
+#facilities select,
+#facilities button {
+  width: 100%; /* Full width for consistency */
+  padding: 10px;
+  margin-bottom: 15px; /* Space between elements */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 4px; /* Rounded edges for inputs */
+  font-size: 1em;
+}
+
+
+#facilities select:focus,
+#facilities button:focus {
+  border-color: #C8102E; /* Highlight color */
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow */
+}
+
+#facilities button {
+  background-color: #C8102E; 
   color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
 }
 
-.facilities-list {
-  list-style-type: none;
-  padding: 0;
-  font-size: 18px;
-  line-height: 1.8;
+#facilities button:hover {
+  background-color: #0088cc; 
 }
 
-.facilities-list li {
+#facilities hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+#facilities h3 {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#facilities #duration {
+  font-size: 1em;
+  color: #666; /* Muted color for duration text */
   margin-bottom: 15px;
 }
 
-/* Booking Form */
-#booking-form label {
-  display: block;
-  margin: 10px 0;
+#facilities ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
 }
 
-#booking-form select,
-#booking-form input,
-#booking-form button {
-  width: 100%;
-  max-width: 350px;
+#facilities ul li {
+  background-color: #fff; 
+  padding: 10px;
+  margin: 5px 0; 
+  border: 1px solid #ddd;
+  border-radius: 4px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-.booking-details {
-  font-size: 18px;
-  margin-top: 20px;
+/* Responsive Design */
+@media (max-width: 768px) {
+  #facilities {
+      padding: 20px; /* Reduce padding on smaller screens */
+  }
+
+  #facilities h1 {
+      font-size: 1.8em; /* Adjust font size for smaller screens */
+  }
+
+  #facilities button {
+      font-size: 0.9em; /* Smaller button text */
+  }
 }
 
 
