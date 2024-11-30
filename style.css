@@ -172,7 +172,31 @@ video {
     object-fit: cover; 
     display: block;
   }
-/* carousell */
+
+
+/* Stories Section */
+.story {
+  height: 100vh;
+  background: rgba(200, 16, 46, 0.9); /* Red with transparency */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story .content{
+  height: 28rem;
+  width: 25rem ;
+  background-color: white;
+  border: .2rem solid  #F5F5F5;
+  border-radius: .7rem;
+
+
+}
+
+.content img{
+    width: 100%
+}
 
 section {
   background: rgba(255, 255, 255, 0.9); /* Semi-transparent for readability */
