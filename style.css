@@ -104,7 +104,7 @@ header, section, footer {
     width: 100%;
   }
 header {
-    background: rgba(200, 16, 46, 0.9); 
+    background: rgba(200, 16, 46, 0.9); /* semi-transparent to see slideshow */
     color: white; }
 /* page select */
 header h1, 
@@ -147,7 +147,7 @@ header nav {
 }
 /* video view */
 section {
-    background: rgba(255, 255, 255, 0.9); /* semi-transparent for readability */
+    background: rgba(255, 255, 255, 0.9); /* semi-transparent to see slideshow */
     padding: 40px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -174,42 +174,114 @@ video {
   }
 
 
-/* Stories Section */
-.story {
-  height: 100vh;
-  background: rgba(200, 16, 46, 0.9); /* Red with transparency */
-  color: white;
+/* carousell with stories Section */
+
+.carousel {
+  background: rgba(200, 16, 46, 0.9);
+  position: relative;
+  max-width: 50rem; 
+  border-radius: 0.625rem; 
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.carousel-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+  width: 70%;
+  border-radius: 0.9375rem; 
 }
 
-.story .content{
-  height: 28rem;
-  width: 25rem ;
-  background-color: white;
-  border: .2rem solid  #F5F5F5;
-  border-radius: .7rem;
-
-
+.slide {
+  min-width: 100%;
+  display: none;
+  text-align: center;
 }
 
-.content img{
-    width: 100%
+.slide.active {
+  display: block;
 }
 
-section {
-  background: rgba(255, 255, 255, 0.9); /* Semi-transparent for readability */
-  padding: 40px 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.content {
+  position: relative;
+  overflow: hidden; 
+  border-radius: 0.9375rem;
 }
 
-section h2 {
-  font-size: 40px;
-  color: #C8102E; /* Red for section headers */
-  margin-bottom: 20px;
+.content img {
+  width: 100%;
+  height: auto;
+  border-bottom: 0.125rem solid #ddd;
+  transition: transform 0.3s ease-in-out;
 }
+
+.content img:hover {
+  transform: scale(1.1); 
+}
+
+.text-content {
+  padding: 1.25rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0.625rem; /* 10px */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.text-content h3 {
+  font-size: 1.125rem; /* 1.8em -> 18px */
+  margin-bottom: 0.625rem; /* 10px */
+  color: #333;
+}
+
+.text-content p {
+  font-size: 1rem; /* 1em -> 16px */
+  color: #555;
+}
+
+.text-content .btn {
+  background-color: #C8102E; /* Red color */
+  color: #fff;
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+  border: none;
+  border-radius: 0.3125rem; /* 5px */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.text-content .btn:hover {
+  background-color: #A00F27; /* Darker red on hover */
+}
+
+/* Navigation Arrows */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(200, 16, 46, 0.7); /* Semi-transparent red */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem; /* 40px */
+  height: 2.5rem; /* 40px */
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.carousel-btn.prev {
+  left: 0.625rem; /* 10px */
+}
+
+.carousel-btn.next {
+  right: 0.625rem; /* 10px */
+}
+
+.carousel-btn:hover {
+  background: rgba(168, 15, 39, 0.9); /* Darker red for hover */
+}
+
+
+
+
 
 /* activity survey */
 .activity {
