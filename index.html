@@ -32,7 +32,7 @@
         <a href="#buy-pass" class="buy-pass">Buy Gym Pass</a> 
       </nav>
     </div>
-    
+
   </header>
   <section class="active-video">
     <video autoplay muted loop>
@@ -44,9 +44,59 @@
         <p>Explore our activities and find your passion!</p>
     </div>
 </section>
+<!-- carousell -->
 
+
+
+
+ <!-- activities Section, survey-->
+ <section id="activities" class="section">
+    <div class="content">
+      <h2>Activities</h2>
+      <p>Take a quick survey to find out which sport suits you best!</p>
+      <hr>
+      <form id="sportSurvey">
+        <label for="fitnessLevel">What is your fitness level?</label>
+        <select id="fitnessLevel" name="fitnessLevel" required>
+          <option value="">Select...</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+
+        <label for="preference">What do you enjoy more?</label>
+        <select id="preference" name="preference" required>
+          <option value="">Select...</option>
+          <option value="team">Team sports</option>
+          <option value="individual">Individual activities</option>
+        </select>
+
+        <label for="intensity">What level of intensity do you prefer?</label>
+        <select id="intensity" name="intensity" required>
+          <option value="">Select...</option>
+          <option value="low">Low</option>
+          <option value="moderate">Moderate</option>
+          <option value="high">High</option>
+        </select>
+
+        <label for="environment">Where do you prefer to exercise?</label>
+        <select id="environment" name="environment" required>
+          <option value="">Select...</option>
+          <option value="indoors">Indoors</option>
+          <option value="outdoors">Outdoors</option>
+        </select>
+
+        <button type="button" id="submitSurvey">Find My Sport</button>
+      </form>
+      <hr>
+      <div id="suggestion"></div>
+    </div>
+  </section>
 
 
     <script src = "main.js"></script>
 </body>
 </html>
+
+
+
