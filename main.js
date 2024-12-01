@@ -154,3 +154,4 @@ nextBtn.addEventListener('click', () => {
 });
 // Show the initial slide
 showSlide(currentIndex);
+// button linking
