@@ -240,7 +240,7 @@ video {
   color: #555;
 }
 
-.text-content .btn {
+.text-content .read-more-button {
   background-color: #C8102E; /* Red color */
   color: #fff;
   padding: 0.625rem 1.25rem; /* 10px 20px */
@@ -250,7 +250,7 @@ video {
   transition: background-color 0.3s ease;
 }
 
-.text-content .btn:hover {
+.text-content .read-more-button:hover {
   background-color: #A00F27; /* Darker red on hover */
 }
 
