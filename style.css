@@ -22,16 +22,16 @@
       /* Animation for slideshow */
       @keyframes slideshow {
         0% {
-          background-image: url('https://img.freepik.com/premium-photo/badminton-racket-shuttlecock-motion-shuttlecock-sport_419829-6.jpg');
+          background-image: url('resources/fed_badminton_slideshow.avif');
         }
         33% {
-          background-image: url('https://i.pinimg.com/originals/ed/9d/1e/ed9d1eb5dcbeb81cae50fea27ac7e099.jpg');
+          background-image: url('resources/fed_basketball_slideshow.jpg');
         }
         66% {
-          background-image: url('https://c.wallhere.com/photos/a0/60/tennis_balls_water_drops_spiral_depth_of_field_dark_background-70579.jpg!s1');
+          background-image: url('resources/fed_tennisball_slideshow.jpg!s1');
         }
         100% {
-          background-image: url('https://img.freepik.com/free-photo/volleyball-ball-black-background_288539-257.jpg?size=626&ext=jpg');
+          background-image: url('resources/fed_volleyball_slideshow.avif');
         }
       }
 
