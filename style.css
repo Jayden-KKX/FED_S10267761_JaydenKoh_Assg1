@@ -200,6 +200,9 @@ video {
 
 
 /* carousell with stories Section */
+a {
+  text-decoration: none; 
+}
 
 .carousel {
   background: rgba(200, 16, 46, 0.9);
