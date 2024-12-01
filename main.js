@@ -128,6 +128,8 @@ function updateEndTimeOptions() {
   document.getElementById('book-button').addEventListener('click', handleBooking);
 
 
+
+
 // story section (carousell)
 // Carousel JavaScript
 const slides = document.querySelectorAll('.slide');
@@ -150,6 +152,5 @@ nextBtn.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % slides.length;
     showSlide(currentIndex);
 });
-
 // Show the initial slide
 showSlide(currentIndex);

@@ -234,7 +234,19 @@ video {
   margin-bottom: 0.625rem; /* 10px */
   color: #333;
 }
-
+/*Mobile View */
+@media (max-width: 768px) {
+  .text-content h3 {
+    font-size: 1rem; /* Smaller size for mobile (16px) */
+    margin-bottom: 0.5rem; /* Adjust the margin */
+  }
+}
+@media (max-width: 480px) {
+  .text-content h3 {
+    font-size: 0.875rem; /* Even smaller for very small devices (14px) */
+    margin-bottom: 0.4rem; /* Adjust margin further */
+  }
+}
 .text-content p {
   font-size: 1rem; /* 1em -> 16px */
   color: #555;
