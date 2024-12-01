@@ -191,7 +191,8 @@ section p {
 }
 
 video {
-    width: 50%;
+    border-radius: 1rem;
+    width: 55%;
     height: auto;
     object-fit: cover; 
     display: block;
