@@ -190,7 +190,7 @@ video {
 .carousel-container {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  width: 70%;
+  width: 50%;
   border-radius: 0.9375rem; 
 }
 
