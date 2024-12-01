@@ -97,15 +97,15 @@ background: #f4f4f9;
 }
 
 
-/* Media Query for Mobile View */
+/* logo positioning in mobile view */
 @media (max-width: 480px) {
   .logo-container {
-    top: 0rem;   /* Move the logo up by reducing the top value */
-    left: 1rem;    /* Keep the left margin the same */
+    top: 0rem;  
+    left: 1rem;   
   }
 
   .logo {
-    width: 8rem;   /* Set the logo width to 8rem */
+    width: 8rem;  
   }
 }
 
@@ -126,7 +126,7 @@ header {
 header h1, 
 header p, 
 header nav a {
-  color: white !important; /* all text within header overrides to white */
+  color: white !important; /* all text in header overrides to white */
 }
 header nav a {
   color: white;
@@ -136,12 +136,12 @@ header nav a {
 }
 header nav a:hover {
   text-decoration: underline;
-  color: white; /* Ensure hover remains white */
+  color: white;
 }
 header nav {
   display: flex;
-  gap: 1rem; /* Adjusted from 15px to rem */
-  margin-top: 1.25rem; /* Adjusted from 20px to rem */
+  gap: 1rem; 
+  margin-top: 1.25rem; 
 }
 
 
@@ -149,15 +149,15 @@ header nav {
 @media (max-width: 480px) {
   header nav {
     flex-direction: column;
-    gap: 2vh; /* Adjusted from 10px to 2% of viewport height */
+    gap: 2vh; 
   }
 
   header nav a {
-    font-size: 4vh; /* Adjusted from 16px to 4% of viewport height */
+    font-size: 4vh;
   }
 
   a {
-    text-decoration: none; /* Removes the underline */
+    text-decoration: none; 
   }
 }
 
@@ -165,8 +165,8 @@ header nav {
 
 section {
   background: rgba(255, 255, 255, 0.9); /* semi-transparent to see slideshow */
-  padding: 2.5rem 1.25rem; /* 40px = 2.5rem, 20px = 1.25rem */
-  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 4px = 0.25rem, 6px = 0.375rem */
+  padding: 2.5rem 1.25rem; 
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); 
 }
 
 /* background expand */
@@ -177,17 +177,17 @@ section {
   }
 
   section h2 {
-    font-size: 2.5rem; /* 40px = 2.5rem */
-    color: #C8102E; /* section header */
-    margin-bottom: 1.25rem; /* 20px = 1.25rem */
+    font-size: 2.5rem; 
+    color: #C8102E; 
+    margin-bottom: 1.25rem; 
 }
 
 
 section p {
-    font-size: 1.2rem; /* 19.2px = 1.2rem */
-    margin-bottom: 1.25rem; /* 20px = 1.25rem */
+    font-size: 1.2rem; 
+    margin-bottom: 1.25rem; 
     line-height: 1.8;
-    color: black; /* regular text */
+    color: black; 
 }
 
 video {
@@ -244,45 +244,45 @@ video {
   padding: 1.25rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
   background-color: #fff;
   text-align: center;
-  border-radius: 0.625rem; /* 10px */
+  border-radius: 0.625rem; 
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
 .text-content h3 {
-  font-size: 1.125rem; /* 1.8em -> 18px */
-  margin-bottom: 0.625rem; /* 10px */
+  font-size: 1.125rem; 
+  margin-bottom: 0.625rem;
   color: #333;
 }
 /*Mobile View */
 @media (max-width: 768px) {
   .text-content h3 {
-    font-size: 1rem; /* Smaller size for mobile (16px) */
-    margin-bottom: 0.5rem; /* Adjust the margin */
+    font-size: 1rem; 
+    margin-bottom: 0.5rem;
   }
 }
 @media (max-width: 480px) {
   .text-content h3 {
-    font-size: 0.875rem; /* Even smaller for very small devices (14px) */
-    margin-bottom: 0.4rem; /* Adjust margin further */
+    font-size: 0.875rem; 
+    margin-bottom: 0.4rem; 
   }
 }
 .text-content p {
-  font-size: 1rem; /* 1em -> 16px */
+  font-size: 1rem; 
   color: #555;
 }
 
 .text-content .read-more-button {
-  background-color: #C8102E; /* Red color */
+  background-color: #C8102E; 
   color: #fff;
-  padding: 0.625rem 1.25rem; /* 10px 20px */
+  padding: 0.625rem 1.25rem; 
   border: none;
-  border-radius: 0.3125rem; /* 5px */
+  border-radius: 0.3125rem; 
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .text-content .read-more-button:hover {
-  background-color: #A00F27; /* Darker red on hover */
+  background-color: #A00F27; 
 }
 
 /* Navigation Arrows */
@@ -290,7 +290,7 @@ video {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(200, 16, 46, 0.7); /* Semi-transparent red */
+  background: rgba(200, 16, 46, 0.7); /* semi-transparent red for slideshow*/
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -302,15 +302,15 @@ video {
 }
 
 .carousel-btn.prev {
-  left: 0.625rem; /* 10px */
+  left: 0.625rem; 
 }
 
 .carousel-btn.next {
-  right: 0.625rem; /* 10px */
+  right: 0.625rem; 
 }
 
 .carousel-btn:hover {
-  background: rgba(168, 15, 39, 0.9); /* Darker red for hover */
+  background: rgba(168, 15, 39, 0.9); 
 }
 
 
@@ -319,21 +319,21 @@ video {
 
 /* activity survey */
 .activity {
-  margin-bottom: 1.25rem; /* 20px = 1.25rem */
+  margin-bottom: 1.25rem; 
   text-align: left;
-  max-width: 50rem; /* 800px = 50rem */
+  max-width: 50rem; 
   width: 90%;
 }
 
 .activity h3 {
-  font-size: 1.75rem; /* 28px = 1.75rem */
-  color: #C8102E; /* Red for activity headers */
-  margin-bottom: 0.625rem; /* 10px = 0.625rem */
+  font-size: 1.75rem; 
+  color: #C8102E; 
+  margin-bottom: 0.625rem; 
 }
 
 .activity p {
-  font-size: 1rem; /* 16px = 1rem */
-  color: black; /* Black for activity descriptions */
+  font-size: 1rem; 
+  color: black; 
 }
 
   
@@ -341,28 +341,28 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.625rem; /* 10px = 0.625rem */
+  gap: 0.625rem; 
   width: 100%;
-  max-width: 25rem; /* 400px = 25rem */
+  max-width: 25rem; 
 }
 
 form label {
   align-self: flex-start;
-  font-size: 1rem; /* 16px = 1rem */
+  font-size: 1rem;
   color: black;
-  margin-bottom: 0.3125rem; /* 5px = 0.3125rem */
+  margin-bottom: 0.3125rem; 
 }
 
 form input, form textarea, form button {
   width: 100%;
-  padding: 0.625rem; /* 10px = 0.625rem */
+  padding: 0.625rem; 
   border: 1px solid #ccc;
-  border-radius: 0.3125rem; /* 5px = 0.3125rem */
-  font-size: 1rem; /* 16px = 1rem */
+  border-radius: 0.3125rem;
+  font-size: 1rem; 
 }
 
 form textarea {
-  height: 6.25rem; /* 100px = 6.25rem */
+  height: 6.25rem;
   resize: none;
 }
 
@@ -371,7 +371,7 @@ form button {
   color: white;
   border: none;
   cursor: pointer;
-  font-size: 1rem; /* 16px = 1rem */
+  font-size: 1rem; 
 }
 
 form button:hover {
@@ -382,19 +382,19 @@ form button:hover {
 form select,
 form input,
 form button {
-  padding: 0.625rem; /* 10px = 0.625rem */
-  margin-bottom: 1.25rem; /* 20px = 1.25rem */
+  padding: 0.625rem; 
+  margin-bottom: 1.25rem; 
   width: 100%;
-  max-width: 18.75rem; /* 300px = 18.75rem */
-  font-size: 1rem; /* 16px = 1rem */
+  max-width: 18.75rem; 
+  font-size: 1rem; 
   border: 1px solid #ccc;
-  border-radius: 0.3125rem; /* 5px = 0.3125rem */
+  border-radius: 0.3125rem; 
 }
 
 #suggestion {
-  font-size: 1.125rem; /* 18px = 1.125rem */
+  font-size: 1.125rem; 
   color: #C8102E;
-  margin-top: 1.25rem; /* 20px = 1.25rem */
+  margin-top: 1.25rem; 
 }
 
 
@@ -407,22 +407,22 @@ form button {
   }
   
   #facilities h1 {
-    font-size: 3rem; /* 3em -> 3rem */
-    margin-bottom: 1.25rem; /* 20px -> 1.25rem */
+    font-size: 3rem; 
+    margin-bottom: 1.25rem; 
     text-align: center;
     color: #ffffff;
   }
   
   #facilities p {
-    font-size: 1rem; /* 1rem is already in rem */
-    margin-bottom: 1.25rem; /* 20px -> 1.25rem */
+    font-size: 1rem; 
+    margin-bottom: 1.25rem; 
     text-align: center;
     color: #ffffff; 
   }
   
   #facilities label {
-    display: block; /* Ensure each label is on its own line */
-    margin: 0.625rem 0 0.3125rem; /* 10px -> 0.625rem, 5px -> 0.3125rem */
+    display: block; 
+    margin: 0.625rem 0 0.3125rem; 
     font-weight: bold;
     color: white;
   }  
@@ -477,8 +477,8 @@ form button {
 
 
 #facilities ul {
-  list-style-type: none; /* Remove default bullet points */
-  padding: 0; /* Remove default padding */
+  list-style-type: none; 
+  padding: 0; 
 }
 
 #facilities ul li {
